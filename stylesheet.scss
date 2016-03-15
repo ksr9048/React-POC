@@ -1,0 +1,63 @@
+.buttonStyle {
+  color: black;
+  margin: 1% 2% 1% 40%;
+}
+
+.buttonStyle:disabled {
+  color: grey;
+}
+
+.pageDiv {
+  width: 100%;
+  align-content: center;
+}
+
+.toggleButtonDiv {
+  width: 100%;
+  align-content: center;
+  //padding: 0% 0% 1% 45%;
+  display: inline-block;
+}
+
+.tableStyle {
+  border: 1px solid black;
+  border-spacing: 0px;
+  cell-padding: 20px;
+  max-height: 90%;
+  min-height: 90%;
+}
+
+.toggleButtonDiv p {
+  width: 30%;
+  margin-right: 12%;
+  margin-top: 0%;
+  float: right;
+  font-weight: bold;
+}
+
+.toggleButtonStyle {
+  color: black;
+  margin-left: 45%;
+  margin-bottom: 1%;
+}
+
+label {
+  margin-right: 2%;
+}
+
+.tableStyle th {
+  cursor: pointer;
+}
+
+.tableStyle td {
+  border: 1px solid black;
+  border-spacing: 0px;
+  height: 25px;
+  font-family: Sans-serif;
+}
+
+.tableStyle td a {
+  font-style: normal;
+  text-decoration: none;
+}
+
